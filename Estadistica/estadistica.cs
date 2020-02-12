@@ -17,8 +17,9 @@ namespace Estadistica
                 suma += int.Parse(valor);
             }
             return suma / serie.Length;
+        }
 
-             public double estandar(string[] serie)
+        public double estandar(string[] serie)
         {
             double media_aritmetica = media(serie),
                 suma = 0,
